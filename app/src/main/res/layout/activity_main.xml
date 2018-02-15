@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.developermarshall.androidlevel.LevelSurfaceRelativeLayout
+        android:id="@+id/level_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.developermarshall.androidlevel.LevelBubble
+            android:id="@+id/level_bubble"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_bubble" />
+    </com.developermarshall.androidlevel.LevelSurfaceRelativeLayout>
+
+</RelativeLayout>
